@@ -13,7 +13,6 @@
                 <label>Password</label><br>
                 <input type="password"><br>
                 <button>Log in</button>
-                <button>Sign in</button>
             </form>
         </div>       
 </body>
