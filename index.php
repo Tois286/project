@@ -16,7 +16,7 @@
             <li><a href="#services">Services</a></li>
             <li><a href="#about">About Us</a></li>
             <li><a href="#about">Home</a></li>
-            <li><a href="#about" id="logout">Login Admin</a></li>
+            <li><a href="login.php">Login Admin</a></li>
         </ul>
 
     </nav>
