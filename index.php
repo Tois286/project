@@ -7,29 +7,30 @@
     <title>Company Profile</title>
 </head>
 <body>
-
-    <header>
-        <h1>Company Name</h1>
-        <p>Welcome to our Company Profile</p>
-    </header>
-
     <nav>
+        <div class="logo">
+            <h1>Bandung Travel</h1>
+        </div>
         <ul>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#about">Home</a></li>
+            <li><a href="#about" id="logout">Login Admin</a></li>
         </ul>
+
     </nav>
 
+    <div class="container">
     <section id="about">
-        <div class="card">
+        <div class="left-content">
             <h2>About Us</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
         </div>
     </section>
-
+    
     <section id="services">
-        <div class="card">
+        <div class="left-content">
             <h2>Our Services</h2>
             <ul>
                 <li>Service 1</li>
@@ -46,7 +47,7 @@
             <p>Phone: 123-456-7890</p>
         </div>
     </section>
-
+    </div>
     <footer>
         <p>&copy; <?php echo date("Y"); ?> Company Name. All rights reserved.</p>
     </footer>
